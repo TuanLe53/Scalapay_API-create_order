@@ -39,7 +39,7 @@ git clone https://github.com/TuanLe53/Scalapay_API-create_order.git
 - Create database(using psql):
 
 ```
-\i /<your_path_of_repo>/database.sql
+\i /<your_path_of_repo_directory>/database.sql
 ```
 
 - Go to backend directory and install dependencies
