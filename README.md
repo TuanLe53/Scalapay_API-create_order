@@ -60,6 +60,9 @@ npm install
 npm run dev
 ```
 
+- Go to http://localhost:5173/ to begin
+
+
 ## Testing
 - Go to backend directory
 
