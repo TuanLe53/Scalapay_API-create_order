@@ -36,10 +36,23 @@ A simple interface built with React, Express.js, Node.js and PostgreSQL
 git clone https://github.com/TuanLe53/Scalapay_API-create_order.git
 ```
 
-- Create database(using psql):
+- Create database(using psql)
 
 ```
 \i /<your_path_of_repo_directory>/database.sql
+```
+
+- Create the .env file inside backend directory
+
+```
+PORT=8000
+ACCESS_TOKEN_SECRET=<your_token>
+REFRESH_TOKEN_SECRET=<your_refresh_token>
+DB_USER=<user>
+DB_PASSWORD=<password>
+DB_HOST=<host>
+DB_PORT=<port>
+DB_DATABASE=<your_database>
 ```
 
 - Go to backend directory and install dependencies
