@@ -4,6 +4,11 @@ A simple interface built with React, Express.js, Node.js and PostgreSQL
 
 ## Screenshots
 
+###### Homepage
+![Image of homepage](https://github.com/TuanLe53/Scalapay_API-create_order/blob/main/screenshots/Screenshot%20(73).png)
+
+###### Blog
+![Image of order](https://github.com/TuanLe53/Scalapay_API-create_order/blob/main/screenshots/Screenshot%20(74).png)
 
 
 **Built With**
