@@ -1,0 +1,14 @@
+#product-detail{
+    display: flex;
+    gap: 20px;
+    width: 70%;
+    height: 70vh;
+    margin-top: 50px;
+    background-color: white;
+}
+#product-detail img{
+    width: 400px;
+} 
+#product-detail div p{
+    font-size: 1.7rem;
+}

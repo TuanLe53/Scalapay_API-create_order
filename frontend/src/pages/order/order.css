@@ -1,0 +1,58 @@
+#order{
+    width: 35%;
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 19px;
+    background-color: #e3e3e3;
+    border: 1px solid black;
+}
+#order #order-id, #order h2{
+    text-align: center;
+}
+#order h2{
+    font-size: 2.7rem;
+}
+#order #order-id{
+    margin-bottom: 5px;
+}
+
+#order form{
+    font-size: 1.3rem;
+}
+#order form input{
+    width: 100%;
+}
+#order form #order-btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
+#order form button{
+    cursor: pointer;
+    padding: 3px;
+}
+
+#order #order-products{
+    background-color: white;
+    margin-top: 5px;
+    height: 160px;
+    overflow: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+#order #order-product::-webkit-scrollbar {
+    display: none;
+}
+
+#order #order-products li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    border-bottom: grey solid;
+}
+
+#order #other-fee{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}

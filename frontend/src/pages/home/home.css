@@ -1,0 +1,19 @@
+#products{
+    width: 90vw;
+}
+#products h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+#products ul{
+    display: flex;
+    gap: 15px;
+}
+
+.product{
+    width: 200px;
+    background-color: white;
+}
+.product img{
+    width: 100%;
+}

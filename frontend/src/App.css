@@ -1,0 +1,62 @@
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font: inherit;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#root{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+}
+
+header{
+    height: 58px;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+header p{
+    flex-grow: 9;
+    display: flex;
+    justify-content: center;
+    margin-left: 210px;
+}
+header div{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header div button{
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+    background-color: beige;
+    transition: 0.4s;
+}
+header div button:hover{
+    background-color: cadetblue;
+}
+header div button:hover a{
+    color: beige;
+}
+
+main{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}

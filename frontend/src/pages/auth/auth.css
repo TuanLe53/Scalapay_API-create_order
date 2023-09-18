@@ -1,0 +1,43 @@
+.auth-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    font-size: 1.8rem;
+    border-radius: 19px;
+    padding: 10px;
+    background-color: bisque;
+}
+
+.auth-page h1{
+    font-weight: bold;
+    font-size: 2.6rem;
+}
+.auth-page .btn-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+}
+.auth-page .btn-wrapper button{
+    cursor: pointer;
+    padding: 3px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.2);
+    transition: 0.4s;
+    color: rgba(104, 85, 224, 1);
+    background-color: white;
+}
+.auth-page .btn-wrapper button:hover{
+    color: white;
+    box-shadow: 0 0 20px rgba(104, 85, 224, 0.6);
+    background-color: rgba(104, 85, 224, 1);
+}
+
+.auth-page a {
+    font-size: 1rem;
+    float: right;
+}
